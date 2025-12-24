@@ -5,6 +5,8 @@ const ASSETS = [
   'style.css',
   'app.js',
   'manifest.json'
+  'sw.js'
+  'icon_1.svg'
 ];
 
 // Installation: Dateien cachen
@@ -23,4 +25,5 @@ self.addEventListener('fetch', (event) => {
       return response || fetch(event.request);
     })
   );
+
 });
