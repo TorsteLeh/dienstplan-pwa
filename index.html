@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dienstplan Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+           <h1>LuD - Zusammenkunft: <input type="date" id="date-picker"></h1>
+            <button id="clear-btn">Inhalte entfernen</button>
+        </div>
+    </header>
+
+    <main>
+        <table id="plan-table">
+            <thead>
+                <tr class="section-header">
+                    <th colspan="2">Schätze aus Gottes Wort</th>
+                    <th>Anwesenheit</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                </tbody>
+        </table>
+    </main>
+
+    <script src="app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</body>
+</html>
