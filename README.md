@@ -1,4 +1,4 @@
-# Test Code
+# Das ist ein Test einer PWA
 # 📅 Dienstplan PWA - LuD Zusammenkunft
 
 Eine moderne, leichtgewichtige **Progressive Web App (PWA)** zur Verwaltung von Dienstplänen. Diese App wurde speziell entwickelt, um Aufgabenverteilungen und Anwesenheiten (Saal/Zoom) effizient zu planen – auch ohne aktive Internetverbindung.
